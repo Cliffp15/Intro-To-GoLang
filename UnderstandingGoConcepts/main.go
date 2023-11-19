@@ -1,20 +1,20 @@
-package main 
+package main
 
-
-import(
+import (
 	"fmt"
-	"runtime"
 )
 
-func main(){
-	var str string ="Hello World"
-
+func main() {
+	var str string = "Hello World"
 	fmt.Println(str)
 
-	runtime.Breakpoint()
-	var str1 string 
+	var str1 string
 	str1 = "Goodbye World"
 	fmt.Println(str1)
 
+	str2 := "Hey Planet"
+	fmt.Println(str2)
+
+	// runtime.Breakpoint()
 
 }
